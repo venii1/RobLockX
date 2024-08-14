@@ -29,6 +29,4 @@ Mobile app :
 The code is useable without any further configurations with the exception of the user registration
 
 The system was done with the intention that there is an admin staff registering users in the Firebase database and manual registration of fingerprints
-
-If any reproduction is needed, fields for Firebase, ThingSpeak and Telegram shall be replaced with the user's own ones
-
+### Libraries Required
