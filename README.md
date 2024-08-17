@@ -7,26 +7,36 @@ This system contains the following components:
 3. ESP8266 Environmental Monitoring Board
 4. Monitoring Mobile App
 
-## Features
-ESP32 Authentication Board:
-1. RFID, Fingerprint, Keypad (Passoword) authentication (in order)
-2. Compares with existing user records in Firebase
-3. Alerts on Telegram whenever authentication failed, door locking and unlocking
-4. Logging on AWS for the events mentioned above
-
-ESP8266 Lock Control Board:
-1. Controls the lock system upon successful authentication
-2. Buzzer system with IR sensor to alert if the door has been left open for too long
-
-ESP8266 Environmental Monitoring Board:
-1. Logging of temperature, humidity, light levels on ThingSpeak securely
-
-Mobile app :
-1. Used for live feed monitoring via ESP-Cam
-2. Shows the current tempoerature, humidity, light level
-
 ## Setting up the system
-The code is useable without any further configurations with the exception of the user registration
+The system was done with the intention that there is an admin staff registering users in the Firebase database and manual registration of fingerprints via the "FingerRegister code"
 
-The system was done with the intention that there is an admin staff registering users in the Firebase database and manual registration of fingerprints
+### Board Dependencies
+The following should be pasted into the "Additional Board Manager URLs" under the Preferences section
+```
+http://arduino.esp8266.com/stable/package_esp8266com_index.json,https://dl.espressif.com/dl/package_esp32_index.json,https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+```
+This installs the required board dependencies for ESP32 & ESP8266. including functional libraries for hardware and WiFi.
+
 ### Libraries Required
+To be manually installed.
+
+ESP32 Authentication Board:
+1. Adafruit Unified Sensor (v1.1.14)
+2. Adafruit Fingerprint Sensor Library (v2.1.3)
+3. Arduino_JSON (v0.2.0)
+4. Arduinojson (v7.1.0)
+5. PubSubClient (v2.8)
+6. MFRC522 (GitHub Community, v1.4.11)
+7. ESP32 Firebase (Rupak Poddar, v1.0.0) 
+8. UniversalTelegramBot (v1.3.0)
+9. Keypad (Mark Stanley, v3.1.1)
+
+
+ESP8266 Lock Control:
+1. ESP8266 Firebase (Rupak Poddar, v1.3.1)
+
+ESP8266 Environment Monitoring:
+1. Adafruit Unified Sensor (v1.1.14)
+2. Arduino_JSON (v0.2.0)
+3. DHT sensor library (v1.4.2)
+4. ThingSpeak (v1.3.3)
