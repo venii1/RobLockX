@@ -1,5 +1,12 @@
 # RobLockX
-Done by: Tan Ming Yao Abel, Ong Jovier, Lim Zhiyu, Ang Wei Xiang, Muhamad Zufar bin Zakir
+Done by: Abel, Jovier, Zhiyu, Wei Xiang, Zufar
+
+## Description
+RobLockX provides a multi-factor authentication using a RFID, Passcode and Fingerprint via checking against a user database on Firebase. 
+
+It provides real-time app monitoring with a camera feed and environmental sensor data. 
+
+It also incorporates event logging on AWS and Telegram, and data logging of environment on ThingSpeak
 
 This system contains the following components:
 1. ESP32 Authentication Board
