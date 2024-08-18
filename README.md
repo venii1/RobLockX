@@ -18,7 +18,7 @@ Components:
 
 ## Sections of this Repository
 * [Setting up the system](#setting-up-the-system)
-  * [Prerequisites]($prerequisities)
+  * [Prerequisites](#prerequisities)
   * [Board Dependencies](#board-dependencies)
   * [Libraries Required](#libraries-required)
   * [Connecting the System](#connecting-the-system)
