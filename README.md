@@ -149,9 +149,10 @@ All relevant libraries stated above should be installed before
 3. Refer to the "ESP32 CAM Setup Guide" PDF provided for a step-by-step guide
 4. The laptop running the Camera should be connected in the same subnet as the mobile app for monitoring (i.e. Mobile HotSpot in our case)
 #### Mobile App
-1. The .aia file was provided
-2. User can change to own ThingSpeak by importing .aia file into MIT App Inventor to customize the code
-3. The IP address of the ESP-CAM obtained shall be entered into the "IP address" field of the app
+1. APK file provided could be installed directly to Android phones and ran immediately
+2. The .aia file provided can be imported into MIT App Inventor to change the app to your needs
+3. User can change to own ThingSpeak by importing .aia file into MIT App Inventor to customize the code
+4. The IP address of the ESP-CAM obtained shall be entered into the "IP address" field of the app
 
 
 
