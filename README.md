@@ -76,6 +76,7 @@ ESP8266 Environment Monitoring:
 ### Connecting the System
 Do note for all the components VCC & GND pin shall be connected to the common 3.3V and GND pin of their respective MCUs
 #### ESP 32
+![image](https://github.com/user-attachments/assets/43e78f5f-2fb2-48af-b8a5-0e18a42c5b5c)
 ##### Keypad
 ![image](https://github.com/user-attachments/assets/5b19af69-5982-420d-ab3f-84e2f2ab446e)\
 C1: GPIO 22\
@@ -99,6 +100,7 @@ Rx: GPIO 12
 ##### PIR Sensor
 Data: GPIO 32
 #### ESP8266 Lock Control
+![image](https://github.com/user-attachments/assets/a4082e2b-566c-4583-be87-d82689276c13)
 ##### Buzzer
 Signal: GPIO 4
 ##### Servo Motor
@@ -106,11 +108,13 @@ Signal: GPIO 16
 ##### IR Sensor
 OUT: GPIO 14
 #### ESP8266 Environmental Monitoring
+![image](https://github.com/user-attachments/assets/9be026ed-b311-49cc-8ab6-e2c2003d0848)
 ##### DHT Sensor
 Data: GPIO 13
 ##### LDR
 ![image](https://github.com/user-attachments/assets/c20f3b4c-70ff-4f88-88c0-bae001fcdda9)
 #### ESP CAM
+![image](https://github.com/user-attachments/assets/d3719c72-5c13-42cb-8f42-09a465235dea)
 To be connected to a Serial-to-USB module (CP2102 was used in our case)\
 U0R: Connect to CP2102 Tx Pin\
 U0T: Connect to CP2102 Rx Pin\
