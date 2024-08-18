@@ -136,7 +136,7 @@ All relevant libraries stated above should be installed before
      * https://www.electronicwings.com/esp32/send-a-telegram-message-using-esp32
 #### ESP 8266 Lock Control
 1. Run "8266Door" code
-2. Users may use Serial Communication for ESP32 to enable the locking system or by using a commoen field in a database like what was done here as a form of communication
+2. Users may use Serial Communication for ESP32 to enable the locking system or by using a common field in a database like what was done here as a form of communication
 3. Refer to this guide by Rupak Poddar to setup, read and write to your own Firebase via ESP8266: https://github.com/Rupakpoddar/ESP8266Firebase
 
 #### ESP 8266 Environmental Monitoring
@@ -150,9 +150,10 @@ All relevant libraries stated above should be installed before
 4. The laptop running the Camera should be connected in the same subnet as the mobile app for monitoring (i.e. Mobile HotSpot in our case)
 #### Mobile App
 1. APK file provided could be installed directly to Android phones and ran immediately
-2. The .aia file provided can be imported into MIT App Inventor to change the app to your needs
-3. User can change to own ThingSpeak by importing .aia file into MIT App Inventor to customize the code
-4. The IP address of the ESP-CAM obtained shall be entered into the "IP address" field of the app
+2. The phone using the mobile app shall be in the same subnet (i.e. hotspot in our case) as the ESP-Cam live stream
+3. The .aia file provided can be imported into MIT App Inventor to change the app to your needs
+4. User can change to own ThingSpeak by importing .aia file into MIT App Inventor to customize the code
+5. The IP address of the ESP-CAM obtained shall be entered into the "IP address" field of the app
 
 
 
