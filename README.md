@@ -114,7 +114,7 @@ Data: GPIO 13
 ##### LDR
 ![image](https://github.com/user-attachments/assets/c20f3b4c-70ff-4f88-88c0-bae001fcdda9)
 #### ESP CAM
-![image](https://github.com/user-attachments/assets/d3719c72-5c13-42cb-8f42-09a465235dea)
+![image](https://github.com/user-attachments/assets/d3719c72-5c13-42cb-8f42-09a465235dea)  
 To be connected to a Serial-to-USB module (CP2102 was used in our case)\
 U0R: Connect to CP2102 Tx Pin\
 U0T: Connect to CP2102 Rx Pin\
